@@ -60,7 +60,7 @@ public abstract class AwBrowserProcess {
                 try {
                     BrowserStartupController.get(context, LibraryProcessType.PROCESS_WEBVIEW)
                             .startBrowserProcessesSync(true);
-                    initializePlatformKeySystem();
+                    // initializePlatformKeySystem();
                 } catch (ProcessInitException e) {
                     throw new RuntimeException("Cannot initialize WebView", e);
                 }

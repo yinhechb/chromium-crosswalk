@@ -706,19 +706,19 @@ class ContentMainRunnerImpl : public ContentMainRunner {
           kV8SnapshotDataDescriptor + base::GlobalDescriptors::kBaseDescriptor);
     }
 #endif  // !OS_ANDROID
-    int v8_natives_fd = g_fds->MaybeGet(kV8NativesDataDescriptor);
-    int v8_snapshot_fd = g_fds->MaybeGet(kV8SnapshotDataDescriptor);
-    if (v8_natives_fd != -1 && v8_snapshot_fd != -1) {
-      auto v8_natives_region = g_fds->GetRegion(kV8NativesDataDescriptor);
-      auto v8_snapshot_region = g_fds->GetRegion(kV8SnapshotDataDescriptor);
-      CHECK(gin::IsolateHolder::LoadV8SnapshotFd(
-          v8_natives_fd, v8_natives_region.offset, v8_natives_region.size,
-          v8_snapshot_fd, v8_snapshot_region.offset, v8_snapshot_region.size));
-    } else {
-      CHECK(gin::IsolateHolder::LoadV8Snapshot());
-    }
+    // int v8_natives_fd = g_fds->MaybeGet(kV8NativesDataDescriptor);
+    // int v8_snapshot_fd = g_fds->MaybeGet(kV8SnapshotDataDescriptor);
+    // if (v8_natives_fd != -1 && v8_snapshot_fd != -1) {
+    //   auto v8_natives_region = g_fds->GetRegion(kV8NativesDataDescriptor);
+    //   auto v8_snapshot_region = g_fds->GetRegion(kV8SnapshotDataDescriptor);
+    //   CHECK(gin::IsolateHolder::LoadV8SnapshotFd(
+    //       v8_natives_fd, v8_natives_region.offset, v8_natives_region.size,
+    //       v8_snapshot_fd, v8_snapshot_region.offset, v8_snapshot_region.size));
+    // } else {
+    //   CHECK(gin::IsolateHolder::LoadV8Snapshot());
+    // }
 #else
-    CHECK(gin::IsolateHolder::LoadV8Snapshot());
+    // CHECK(gin::IsolateHolder::LoadV8Snapshot());
 #endif  // OS_POSIX && !OS_MACOSX
 #endif  // V8_USE_EXTERNAL_STARTUP_DATA
 

@@ -1154,7 +1154,9 @@ public class AwSettings {
     @CalledByNative
     private boolean getTextAutosizingEnabledLocked() {
         assert Thread.holdsLock(mAwSettingsLock);
-        return mLayoutAlgorithm == LayoutAlgorithm.TEXT_AUTOSIZING;
+        //~ TODO(alex):
+        // return mLayoutAlgorithm == LayoutAlgorithm.TEXT_AUTOSIZING;
+        return true;
     }
 
     /**

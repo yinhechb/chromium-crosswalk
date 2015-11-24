@@ -786,11 +786,12 @@ public class AwContents implements SmartClipProvider,
         awViewMethodsImpl.onVisibilityChanged(mContainerView, mContainerView.getVisibility());
         awViewMethodsImpl.onWindowVisibilityChanged(mContainerView.getWindowVisibility());
 
-        if (mContainerView.isAttachedToWindow()) {
-            awViewMethodsImpl.onAttachedToWindow();
-        } else {
-            awViewMethodsImpl.onDetachedFromWindow();
-        }
+        //~ TODO(alex):
+        // if (mContainerView.isAttachedToWindow()) {
+        //     awViewMethodsImpl.onAttachedToWindow();
+        // } else {
+        //     awViewMethodsImpl.onDetachedFromWindow();
+        // }
         awViewMethodsImpl.onSizeChanged(
                 mContainerView.getWidth(), mContainerView.getHeight(), 0, 0);
         awViewMethodsImpl.onWindowFocusChanged(mContainerView.hasWindowFocus());

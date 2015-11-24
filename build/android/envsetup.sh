@@ -43,6 +43,9 @@ android_envsetup_main() {
   # Add Android SDK tools to system path.
   export PATH=$PATH:${ANDROID_SDK_ROOT}/platform-tools
 
+  # Add Android NDK toolchain to system path.
+  export PATH=$PATH:${CHROME_SRC}/third_party/android_tools/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin
+
   # Add Android utility tools to the system path.
   export PATH=$PATH:${ANDROID_SDK_ROOT}/tools/
 
