@@ -72,7 +72,7 @@ deps = {
     (Var("googlecode_url") % "google-breakpad") + "/trunk/src@1271",
 
   "src/sdch/open-vcdiff":
-    (Var("googlecode_url") % "open-vcdiff") + "/trunk@42",
+    (Var("chromium_git")) + '/external/github.com/google/open-vcdiff.git@b98f1cfd2cf2b727f97de4cdaadf458d7ac4d20d',
 
   "src/testing/gtest":
     (Var("googlecode_url") % "googletest") + "/trunk@643",
