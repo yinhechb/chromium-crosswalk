@@ -78,7 +78,7 @@ deps = {
     (Var("chromium_git")) + '/external/github.com/google/googletest.git@74de57c951aedebc5dfe26a27604353432392b98',    
 
   "src/testing/gmock":
-    (Var("googlecode_url") % "googlemock") + "/trunk@410",
+    (Var("chromium_git")) + '/external/googlemock.git@6b1759c3816d574bddde3e1725c51a811c8870e7',    
 
   "src/third_party/angle":
     Var("chromium_git") +
