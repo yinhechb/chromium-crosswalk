@@ -222,7 +222,7 @@ deps = {
     "/trunk/deps/third_party/yasm/patched-yasm@167605",
 
   "src/third_party/libjpeg_turbo":
-    "/trunk/deps/third_party/libjpeg_turbo@251747",
+    (Var("chromium_git")) + '/chromium/deps/libjpeg_turbo.git@966a02fd0c4047a6badca966cd77f1496b690447',
 
   "src/third_party/flac":
     (Var("chromium_git")) + '/chromium/deps/flac.git@71e33f190a7bb144fe4e2014897b8d15c8247198',
