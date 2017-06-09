@@ -16,6 +16,7 @@ vars = {
   # Use this googlecode_url variable only if there is an internal mirror for it.
   # If you do not know, use the full path while defining your new deps entry.
   "googlecode_url": "http://%s.googlecode.com/svn",
+  "chromium_src": ""http://src.chormium.org/svn",
   "sourceforge_url": "http://svn.code.sf.net/p/%(repo)s/code",
   "llvm_url": "http://src.chromium.org/llvm-project",
   "llvm_git": "https://llvm.googlesource.com",
@@ -202,7 +203,7 @@ deps = {
     Var("libvpx_revision"),
 
   "src/third_party/ffmpeg":
-    "/trunk/deps/third_party/ffmpeg@" +
+    (Var("chromium_src"))+"/trunk/deps/third_party/ffmpeg@" +
     Var("ffmpeg_revision"),
 
   "src/third_party/libjingle/source/talk":
