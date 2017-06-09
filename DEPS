@@ -276,8 +276,9 @@ deps = {
     "/trunk/tools/deps2git@248305",
 
   "src/third_party/clang_format/script":
-    Var("llvm_url") + "/cfe/trunk/tools/clang-format@198831",
-
+   Var("chromium_git") +
+    "/chromium/llvm-project/cfe/tools/clang-format.git@436d02ff288c8d4a7e5fdaff5c46d4632ed88908",
+    
   "src/third_party/webpagereplay":
     (Var("googlecode_url") % "web-page-replay") + "/trunk@540",
 
