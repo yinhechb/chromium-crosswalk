@@ -531,13 +531,13 @@ deps_os = {
       "@c523556ab7d0f05afadebd20e7768d4c16af8771",
 
     "src/third_party/httpcomponents-client":
-      "/trunk/deps/third_party/httpcomponents-client@170888",
+      (Var("chromium_git")) + '/chromium/deps/httpcomponents-client.git@285c4dafc5de0e853fa845dce5773e223219601c',
 
     "src/third_party/httpcomponents-core":
-      "/trunk/deps/third_party/httpcomponents-core@170888",
+      (Var("chromium_git")) + '/chromium/deps/httpcomponents-core.git@9f7180a96f8fa5cab23f793c14b413356d419e62',
 
     "src/third_party/jarjar":
-      "/trunk/deps/third_party/jarjar@170888",
+      (Var("chromium_git")) + '/chromium/deps/jarjar.git@2e1ead4c68c450e0b77fe49e3f9137842b8b6920",
 
     "src/third_party/jsr-305/src":
       (Var("googlecode_url") % "jsr-305") + "/trunk@51",
