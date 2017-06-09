@@ -238,7 +238,7 @@ deps = {
     (Var("googlecode_url") % "webrtc") + "/trunk/webrtc@" + Var("webrtc_revision"),
 
   "src/third_party/openmax_dl":
-    (Var("googlecode_url") % "webrtc") + "/deps/third_party/openmax@5569",
+    (Var("chromium_git")) + '/external/webrtc/deps/third_party/openmax.git@0349a5549a2ad49d03bef9742a77f62f72ece1ed',
 
   "src/third_party/jsoncpp/source/include":
     (Var("sourceforge_url") % {"repo": "jsoncpp"}) +
@@ -293,8 +293,8 @@ deps = {
     "/trunk/deps/cdm@249141",
 
   "src/third_party/mesa/src":
-    "/trunk/deps/third_party/mesa@240938",
-
+    (Var("chromium_git")) + '/chromium/deps/mesa.git@ff34f1e559362fbff2c693ed16effb3046dba8e9',
+ 
   "src/third_party/cld_2/src":
     (Var("googlecode_url") % "cld2") + "/trunk@84",
 
