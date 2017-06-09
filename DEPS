@@ -122,7 +122,7 @@ deps = {
 
   # TODO(thakis): Pull from svn instead, http://crbug.com/333071
   "src/third_party/libc++/trunk":
-    Var("chromium_git") +'chromium/llvm-project/libcxx.git@ + Var("libcxx_revision"),
+    Var("chromium_git") +'chromium/llvm-project/libcxx.git@' + Var("libcxx_revision"),
 
   # TODO(thakis): Pull from svn instead, http://crbug.com/333071
   "src/third_party/libc++abi/trunk":
