@@ -76,7 +76,7 @@ deps = {
     (Var("chromium_git")) + '/external/github.com/google/open-vcdiff.git@b98f1cfd2cf2b727f97de4cdaadf458d7ac4d20d',
 
   "src/testing/gtest":
-    (Var("chromium_git")) + '/external/github.com/google/googletest.git@74de57c951aedebc5dfe26a27604353432392b98',    
+    (Var("chromium_git")) + '/external/googletest.git@74de57c951aedebc5dfe26a27604353432392b98',    
 
   "src/testing/gmock":
     (Var("chromium_git")) + '/external/googlemock.git@6b1759c3816d574bddde3e1725c51a811c8870e7',    
