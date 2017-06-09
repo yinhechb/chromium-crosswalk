@@ -198,8 +198,8 @@ deps = {
     (Var("googlecode_url") % "selenium") + "/trunk/py@18337",
 
   "src/third_party/libvpx":
-    "/trunk/deps/third_party/libvpx@" +
-    Var("libvpx_revision"),
+    'https://android.googlesource.com/platform/'+
+    /external/chromium_org/third_party/libvpx/+/5a0c2199cf036c0e7f3fd95c06bca41837469185',
     
 
   "src/third_party/ffmpeg":
