@@ -100,7 +100,7 @@ deps = {
     "/external/w3c/csswg-test.git@8c415e3215a203fa3a22dbdd1799279fdf44c81e",
 
   "src/third_party/icu":
-    Var("chromium_git") +'/chromium/deps/icu46.git@75ccd1f847c6c395b74e8835dec9311ad6509121",
+    Var("chromium_git") +'/chromium/deps/icu46.git@75ccd1f847c6c395b74e8835dec9311ad6509121',
 
   "src/third_party/libexif/sources":
     "/trunk/deps/third_party/libexif/sources@146817",
@@ -109,7 +109,7 @@ deps = {
    Var("chromium_git") +'/chromium/deps/hunspell.git@37403978cd939a2b396a5d49944af54623e4795e',
 
   "src/third_party/hunspell_dictionaries":
-    Var("chromium_git") +'/chromium/deps/hunspell_dictionaries.git@bc7edb352e97fa71e387b9a5522f1bbd5b11a5eb",
+    Var("chromium_git") +'/chromium/deps/hunspell_dictionaries.git@bc7edb352e97fa71e387b9a5522f1bbd5b11a5eb',
 
   "src/third_party/safe_browsing/testing":
     (Var("googlecode_url") % "google-safe-browsing") + "/trunk/testing@112",
