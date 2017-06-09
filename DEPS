@@ -200,6 +200,7 @@ deps = {
   "src/third_party/libvpx":
     "/trunk/deps/third_party/libvpx@" +
     Var("libvpx_revision"),
+    
 
   "src/third_party/ffmpeg":
     (Var("chromium_git"))+"/chromium/deps/ffmpeg.git@ae15b23bc503223f61dd75e70c73977414b36939" ,
@@ -213,8 +214,8 @@ deps = {
     "/trunk/KERN/usrsctp/usrsctplib@8723",
 
   "src/third_party/libsrtp":
-    "/trunk/deps/third_party/libsrtp@250757",
-
+    (Var("chromium_git")) + '/chromium/deps/libsrtp.git@84122798bb16927b1e676bd4f938a6e48e5bf2fe',
+    
   "src/third_party/speex":
     "/trunk/deps/third_party/speex@198168",
 
