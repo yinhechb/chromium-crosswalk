@@ -544,11 +544,11 @@ deps_os = {
       (Var("chromium_git")) + '/external/jsr-305.git@642c508235471f7220af6d5df2d3210e3bfc0919',
 
     "src/third_party/lss":
-      ((Var("googlecode_url") % "linux-syscall-support") + "/trunk/lss@" +
-       Var("lss_revision")),
+      Var("chromiumos_git") + 'external/linux-syscall-support/lss.git@e6c7682c40c27527894fbb8bcba38f77edbbb6b7',
 
     "src/third_party/openssl":
-      "/trunk/deps/third_party/openssl@" + Var("openssl_revision"),
+      'https://android.googlesource.com/platform' +
+    '/external/chromium_org/third_party/openssl.git@bab551292a524df842435aded34751e598bfe30d',
 
     "src/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille":
     (Var("chromium_git")) + '/external/eyes-free/braille/client/src/com/googlecode/eyesfree/braille.git@77bf6edb0138e3a38a2772248696f130dab45e34',
