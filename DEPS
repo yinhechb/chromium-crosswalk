@@ -118,7 +118,7 @@ deps = {
     Var("chromium_git") +'/external/google-cache-invalidation-api.git@7f03edaa3e5c952cc69cf85585a3118550e9cd6c',
 
   "src/third_party/leveldatabase/src":
-    (Var("googlecode_url") % "leveldb") + "/trunk@79",
+    Var("chromium_git") +'/external/leveldb.git@269fc6ca9416129248db5ca57050cd5d39d177c8',
 
   # TODO(thakis): Pull from svn instead, http://crbug.com/333071
   "src/third_party/libc++/trunk":
