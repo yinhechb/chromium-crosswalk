@@ -100,7 +100,7 @@ deps = {
     "/external/w3c/csswg-test.git@8c415e3215a203fa3a22dbdd1799279fdf44c81e",
 
   "src/third_party/icu":
-    "/trunk/deps/third_party/icu46@246118",
+    Var("chromium_git") +'/chromium/deps/icu46.git@75ccd1f847c6c395b74e8835dec9311ad6509121",
 
   "src/third_party/libexif/sources":
     "/trunk/deps/third_party/libexif/sources@146817",
