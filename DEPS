@@ -206,8 +206,7 @@ deps = {
     (Var("chromium_git"))+"/chromium/deps/ffmpeg.git@ae15b23bc503223f61dd75e70c73977414b36939" ,
     
   "src/third_party/libjingle/source/talk":
-    (Var("googlecode_url") % "webrtc") + "/trunk/talk@" +
-    Var("webrtc_revision"),
+    (Var("chromium_git"))+"/external/webrtc/trunk/webrtc.git@3e4cdeca70f8a9499fb746fa4e9a094a449dda86",
 
   "src/third_party/usrsctp/usrsctplib":
     (Var("googlecode_url") % "sctp-refimpl") +
