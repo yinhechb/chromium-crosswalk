@@ -199,7 +199,7 @@ deps = {
 
   "src/third_party/libvpx":
     'https://android.googlesource.com/platform/'+
-    '/external/chromium_org/third_party/libvpx/+/5a0c2199cf036c0e7f3fd95c06bca41837469185',
+    '/external/chromium_org/third_party/libvpx.git@5a0c2199cf036c0e7f3fd95c06bca41837469185',
     
 
   "src/third_party/ffmpeg":
