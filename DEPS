@@ -458,7 +458,8 @@ deps_os = {
       Var("chromiumos_git") + 'external/linux-syscall-support/lss.git@e6c7682c40c27527894fbb8bcba38f77edbbb6b7',
 
     "src/third_party/openssl":
-      "/trunk/deps/third_party/openssl@" + Var("openssl_revision"),
+    'https://android.googlesource.com/platform'+'
+    '/external/chromium_org/third_party/openssl.git@bab551292a524df842435aded34751e598bfe30d',
 
     "src/third_party/gold":
       "/trunk/deps/third_party/gold@228995",
