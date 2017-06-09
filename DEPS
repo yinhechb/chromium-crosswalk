@@ -516,7 +516,7 @@ deps_os = {
       "/trunk/deps/third_party/aosp@148330",
 
     "src/third_party/apache-mime4j":
-      "/trunk/deps/third_party/apache-mime4j@170888",
+       (Var("chromium_git")) + '/chromium/deps/apache-mime4j.git@28cb1108bff4b6cf0a2e86ff58b3d025934ebe3a',
 
     "src/third_party/findbugs":
       "/trunk/deps/third_party/findbugs@245039",
