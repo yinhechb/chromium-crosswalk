@@ -455,7 +455,7 @@ deps_os = {
       "/trunk/deps/third_party/swig/linux@" + Var("swig_revision"),
 
     "src/third_party/lss":
-      Var("chromiumos_git") + 'external/linux-syscall-support/lss.git@e6c7682c40c27527894fbb8bcba38f77edbbb6b7',
+      Var("chromiumos_git") + '/external/linux-syscall-support/lss.git@e6c7682c40c27527894fbb8bcba38f77edbbb6b7',
 
     "src/third_party/openssl":
     'https://android.googlesource.com/platform' +
@@ -544,7 +544,7 @@ deps_os = {
       (Var("chromium_git")) + '/external/jsr-305.git@642c508235471f7220af6d5df2d3210e3bfc0919',
 
     "src/third_party/lss":
-      Var("chromiumos_git") + 'external/linux-syscall-support/lss.git@e6c7682c40c27527894fbb8bcba38f77edbbb6b7',
+      Var("chromium_git") + '/external/linux-syscall-support/lss.git@e6c7682c40c27527894fbb8bcba38f77edbbb6b7',
 
     "src/third_party/openssl":
       'https://android.googlesource.com/platform' +
