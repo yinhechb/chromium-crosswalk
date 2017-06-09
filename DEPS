@@ -539,7 +539,7 @@ deps_os = {
       (Var("chromium_git")) + '/chromium/deps/jarjar.git@2e1ead4c68c450e0b77fe49e3f9137842b8b6920',
 
     "src/third_party/jsr-305/src":
-      (Var("googlecode_url") % "jsr-305") + "/trunk@51",
+      (Var("chromium_git")) + '/external/jsr-305.git@642c508235471f7220af6d5df2d3210e3bfc0919',
 
     "src/third_party/lss":
       ((Var("googlecode_url") % "linux-syscall-support") + "/trunk/lss@" +
