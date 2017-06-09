@@ -537,7 +537,7 @@ deps_os = {
       (Var("chromium_git")) + '/chromium/deps/httpcomponents-core.git@9f7180a96f8fa5cab23f793c14b413356d419e62',
 
     "src/third_party/jarjar":
-      (Var("chromium_git")) + '/chromium/deps/jarjar.git@2e1ead4c68c450e0b77fe49e3f9137842b8b6920",
+      (Var("chromium_git")) + '/chromium/deps/jarjar.git@2e1ead4c68c450e0b77fe49e3f9137842b8b6920',
 
     "src/third_party/jsr-305/src":
       (Var("googlecode_url") % "jsr-305") + "/trunk@51",
