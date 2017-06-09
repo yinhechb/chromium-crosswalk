@@ -550,8 +550,8 @@ deps_os = {
       "/trunk/deps/third_party/openssl@" + Var("openssl_revision"),
 
     "src/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille":
-      (Var("googlecode_url") % "eyes-free") + "/trunk/braille/client/src/com/googlecode/eyesfree/braille@797",
-
+    (Var("chromium_git")) + '/external/eyes-free/braille/client/src/com/googlecode/eyesfree/braille.git@77bf6edb0138e3a38a2772248696f130dab45e34',
+ 
     # Android shouldn't use this address validation library.
     "src/third_party/libaddressinput/src/cpp": None,
     "src/third_party/libaddressinput/src/testdata": None,
