@@ -261,15 +261,17 @@ deps = {
     (Var("googlecode_url") % "libaddressinput") + "/trunk/testdata@" +
         Var("libaddressinput_revision"),
 
-  "src/third_party/libphonenumber/src/phonenumbers":
-    (Var("googlecode_url") % "libphonenumber") +
-        "/trunk/cpp/src/phonenumbers@" + Var("libphonenumber_revision"),
-  "src/third_party/libphonenumber/src/test":
-    (Var("googlecode_url") % "libphonenumber") + "/trunk/cpp/test@" +
-        Var("libphonenumber_revision"),
-  "src/third_party/libphonenumber/src/resources":
-    (Var("googlecode_url") % "libphonenumber") + "/trunk/resources@" +
-        Var("libphonenumber_revision"),
+#  "src/third_party/libphonenumber/src/phonenumbers":
+#    (Var("googlecode_url") % "libphonenumber") +
+#        "/trunk/cpp/src/phonenumbers@" + Var("libphonenumber_revision"),
+#  "src/third_party/libphonenumber/src/test":
+#    (Var("googlecode_url") % "libphonenumber") + "/trunk/cpp/test@" +
+#        Var("libphonenumber_revision"),
+#  "src/third_party/libphonenumber/src/resources":
+#    (Var("googlecode_url") % "libphonenumber") + "/trunk/resources@" +
+#        Var("libphonenumber_revision"),
+ 'src/third_party/libphonenumber/dist':
+(Var("chromium_git")) + '/external/libphonenumber.git@dd386b98e2905a0ccd004d195460c598bee009b6',
 
   "src/tools/deps2git":
     "/trunk/tools/deps2git@248305",
