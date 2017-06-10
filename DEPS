@@ -170,7 +170,7 @@ deps = {
 
   "src/third_party/ots":
     Var("chromium_git") +
-    'external/ots.git@eea48361b1ffcc1bded0ba25c8f747e634cd8e51',
+    '/external/ots.git@eea48361b1ffcc1bded0ba25c8f747e634cd8e51',
     
   "src/third_party/brotli/src":
     Var("chromium_git") +
