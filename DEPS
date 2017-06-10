@@ -151,9 +151,9 @@ deps = {
     Var("nacl_trunk") + "/src/native_client/tests/prebuilt@" +
     Var("nacl_revision"),
 
-  "src/third_party/sfntly/cpp/src":
-    (Var("googlecode_url") % "sfntly") + "/trunk/cpp/src@" +
-    Var("sfntly_revision"),
+  "src/third_party/sfntly/src":
+   Var("chromium_git") +
+  '/external/sfntly/cpp/src.git@8f090032dd4f8f8908f338cc73bb840b788377f2',
 
   "src/third_party/skia/src":
     (Var("googlecode_url") % "skia") + "/trunk/src@" + Var("skia_revision"),
