@@ -169,8 +169,9 @@ deps = {
 #    (Var("googlecode_url") % "skia") + "/trunk/include@" + Var("skia_revision"),
 
   "src/third_party/ots":
-    (Var("googlecode_url") % "ots") + "/trunk@110",
-
+    Var("chromium_git") +
+    'external/ots.git@eea48361b1ffcc1bded0ba25c8f747e634cd8e51',
+    
   "src/third_party/brotli/src":
     Var("chromium_git") +
     "/external/font-compression-reference.git@dfc5a9f2151a7c88914c236c7db8fa119fee249c",
