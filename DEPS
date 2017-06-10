@@ -257,7 +257,7 @@ deps = {
     (Var("chromium_git")) + '/libyuv/libyuv.git@4b3428e7d5ed8a48595a43f3af3ccf11749dcfb3',
 
   "src/third_party/smhasher/src":
-    (Var("googlecode_url") % "smhasher") + "/trunk@151",
+    (Var("chromium_git")) + '/external/smhasher.git@b52816cce35fbfdda7d56c533cf53d15201513e3',
 
   "src/third_party/libaddressinput/src/cpp":
     (Var("googlecode_url") % "libaddressinput") + "/trunk/cpp@" +
