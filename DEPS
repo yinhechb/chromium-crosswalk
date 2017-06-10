@@ -129,7 +129,7 @@ deps = {
     Var("chromium_git") +'/chromium/llvm-project/libcxxabi.git@' + Var("libcxxabi_revision"),
 
   "src/third_party/snappy/src":
-    (Var("googlecode_url") % "snappy") + "/trunk@80",
+    Var("chromium_git") +'/external/snappy.git@762bb32f0c9d2f31ba4958c7c0933d22e80c20bf',
 
   "src/tools/grit":
     (Var("googlecode_url") % "grit-i18n") + "/trunk@151",
