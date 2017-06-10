@@ -287,8 +287,8 @@ deps = {
     (Var("googlecode_url") % "pywebsocket") + "/trunk/src@662",
 
   "src/third_party/opus/src":
-    "/trunk/deps/third_party/opus@237544",
-
+  (Var("chromium_git")) + '/chromium/deps/opus.git@dd52457296df1ef41bae8e28dc321d6798509172',
+ 
   "src/media/cdm/ppapi/api":
     "/trunk/deps/cdm@249141",
 
