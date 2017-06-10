@@ -155,14 +155,18 @@ deps = {
    Var("chromium_git") +
   '/external/sfntly/cpp/src.git@8f090032dd4f8f8908f338cc73bb840b788377f2',
 
-  "src/third_party/skia/src":
-    (Var("googlecode_url") % "skia") + "/trunk/src@" + Var("skia_revision"),
-
-  "src/third_party/skia/gyp":
-    (Var("googlecode_url") % "skia") + "/trunk/gyp@" + Var("skia_revision"),
-
-  "src/third_party/skia/include":
-    (Var("googlecode_url") % "skia") + "/trunk/include@" + Var("skia_revision"),
+  "src/third_party/skia":
+    'https://android.googlesource.com' +
+    '/platform/external/skia.git@a7692a9',
+  
+# "src/third_party/skia/src":
+#   (Var("googlecode_url") % "skia") + "/trunk/src@" + Var("skia_revision"),
+#
+#  "src/third_party/skia/gyp":
+#    (Var("googlecode_url") % "skia") + "/trunk/gyp@" + Var("skia_revision"),
+#
+#  "src/third_party/skia/include":
+#    (Var("googlecode_url") % "skia") + "/trunk/include@" + Var("skia_revision"),
 
   "src/third_party/ots":
     (Var("googlecode_url") % "ots") + "/trunk@110",
