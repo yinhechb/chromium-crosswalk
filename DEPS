@@ -132,7 +132,8 @@ deps = {
     Var("chromium_git") +'/external/snappy.git@762bb32f0c9d2f31ba4958c7c0933d22e80c20bf',
 
   "src/tools/grit":
-    (Var("googlecode_url") % "grit-i18n") + "/trunk@151",
+    'https://android.googlesource.com' +
+    '/platform/external/chromium_org/tools/grit.git@a462d172a329c260c4b77186af3e9813538e6267',
 
   "src/tools/gyp":
     'https://github.com/svn2github/gyp.git@9e99165ad9b927ea78c2c62e0f71f9d0db6be3ea',
@@ -241,7 +242,8 @@ deps = {
         Var("nacl_tools_revision"),
 
   "src/third_party/webrtc":
-    (Var("googlecode_url") % "webrtc") + "/trunk/webrtc@" + Var("webrtc_revision"),
+  'https://android.googlesource.com/platform' +
+  '/external/webrtc.git@346094cb01ef2ffbf0398f465d61c9a4f77b465c',
 
   "src/third_party/openmax_dl":
     (Var("chromium_git")) + '/external/webrtc/deps/third_party/openmax.git@0349a5549a2ad49d03bef9742a77f62f72ece1ed',
