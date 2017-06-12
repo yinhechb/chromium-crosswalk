@@ -215,7 +215,7 @@ deps = {
 
   "src/third_party/usrsctp/usrsctplib":
     (Var("chromium_git")) + 
-    'external/sctp-refimpl.git@7c09dce0d7bb665a1fb21285997c8e735f69ba41',
+    '/external/sctp-refimpl.git@7c09dce0d7bb665a1fb21285997c8e735f69ba41',
 
   "src/third_party/libsrtp":
     (Var("chromium_git")) + '/chromium/deps/libsrtp.git@84122798bb16927b1e676bd4f938a6e48e5bf2fe',
