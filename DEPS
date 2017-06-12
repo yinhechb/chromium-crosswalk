@@ -142,7 +142,8 @@ deps = {
         Var("swarming_revision"),
 
   "src/v8":
-    (Var("googlecode_url") % "v8") + "/trunk@" + Var("v8_revision"),
+    Var("chromium_git") +
+    '/v8/v8.git@bb8234d89692f5088ce3fe3ff5a8e8da2f038cfe',
 
   "src/native_client":
     Var("nacl_trunk") + "/src/native_client@" + Var("nacl_revision"),
