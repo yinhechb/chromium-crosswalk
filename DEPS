@@ -86,8 +86,9 @@ deps = {
     "/angle/angle.git@4df02c1ed5e97dd54576b06964b1da67ea30238e",
 
   "src/third_party/trace-viewer":
-    (Var("googlecode_url") % "trace-viewer") + "/trunk@1133",
-
+  Var("chromium_git") +
+  '/external/trace-viewer/+/cae7911c80d4293ed7ab454c8a59b7376ac1616b',
+    
   "src/third_party/WebKit":
     Var("webkit_trunk") + "@" + Var("webkit_revision"),
 
