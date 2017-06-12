@@ -282,7 +282,8 @@ deps = {
 (Var("chromium_git")) + '/external/libphonenumber.git@dd386b98e2905a0ccd004d195460c598bee009b6',
 
   "src/tools/deps2git":
-    "/trunk/tools/deps2git@248305",
+    Var("chromium_git") +
+    'tools/deps2git.git@5d3006d5bf9a3982b8549f8a7bd25ac40e038be0',
 
   "src/third_party/clang_format/script":
    Var("chromium_git") +
