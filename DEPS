@@ -468,7 +468,7 @@ deps_os = {
       "/trunk/deps/third_party/swig/linux@" + Var("swig_revision"),
 
     "src/third_party/lss":
-      Var("chromiumos_git") + '/external/linux-syscall-support/lss.git@e6c7682c40c27527894fbb8bcba38f77edbbb6b7',
+      Var("chromium_git") + '/external/linux-syscall-support/lss.git@e6c7682c40c27527894fbb8bcba38f77edbbb6b7',
 
     "src/third_party/openssl":
     'https://android.googlesource.com/platform' +
