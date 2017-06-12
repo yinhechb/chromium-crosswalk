@@ -135,8 +135,8 @@ deps = {
     (Var("googlecode_url") % "grit-i18n") + "/trunk@151",
 
   "src/tools/gyp":
-    (Var("googlecode_url") % "gyp") + "/trunk@1854",
-
+    'https://github.com/svn2github/gyp.git@9e99165ad9b927ea78c2c62e0f71f9d0db6be3ea',
+    
   "src/tools/swarming_client":
     Var("chromium_git") + "/external/swarming.client.git@" +
         Var("swarming_revision"),
