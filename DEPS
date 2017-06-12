@@ -214,8 +214,8 @@ deps = {
     (Var("chromium_git"))+"/external/webrtc/trunk/webrtc.git@3e4cdeca70f8a9499fb746fa4e9a094a449dda86",
 
   "src/third_party/usrsctp/usrsctplib":
-    (Var("googlecode_url") % "sctp-refimpl") +
-    "/trunk/KERN/usrsctp/usrsctplib@8723",
+    (Var("chromium_git")) + 
+    'external/sctp-refimpl.git@7c09dce0d7bb665a1fb21285997c8e735f69ba41',
 
   "src/third_party/libsrtp":
     (Var("chromium_git")) + '/chromium/deps/libsrtp.git@84122798bb16927b1e676bd4f938a6e48e5bf2fe',
