@@ -87,7 +87,7 @@ deps = {
 
   "src/third_party/trace-viewer":
   Var("chromium_git") +
-  '/external/trace-viewer/+/cae7911c80d4293ed7ab454c8a59b7376ac1616b',
+  '/external/trace-viewer.git@cae7911c80d4293ed7ab454c8a59b7376ac1616b',
     
   "src/third_party/WebKit":
     Var("webkit_trunk") + "@" + Var("webkit_revision"),
