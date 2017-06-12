@@ -287,7 +287,7 @@ deps = {
 
   "src/tools/deps2git":
     Var("chromium_git") +
-    'tools/deps2git.git@5d3006d5bf9a3982b8549f8a7bd25ac40e038be0',
+    '/chromium/tools/deps2git.git@5d3006d5bf9a3982b8549f8a7bd25ac40e038be0',
 
   "src/third_party/clang_format/script":
    Var("chromium_git") +
