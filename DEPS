@@ -214,11 +214,12 @@ deps = {
     (Var("chromium_git"))+"/chromium/deps/ffmpeg.git@ae15b23bc503223f61dd75e70c73977414b36939" ,
     
   "src/third_party/libjingle/source/talk":
-    (Var("chromium_git"))+"/external/webrtc/trunk/webrtc.git@3e4cdeca70f8a9499fb746fa4e9a094a449dda86",
-
-  "src/third_party/usrsctp/usrsctplib":
+    'https://android.googlesource.com' +
+    '/platform/external/webrtc.git@346094cb01ef2ffbf0398f465d61c9a4f77b465c/talk',
+ 
+ "src/third_party/usrsctp/usrsctplib":
     (Var("chromium_git")) + 
-    '/external/sctp-refimpl.git@7c09dce0d7bb665a1fb21285997c8e735f69ba41',
+    '/external/sctp-refimpl.git@7c09dce0d7bb665a1fb21285997c8e735f69ba41/KERN/usrsctp/usrsctplib',
 
   "src/third_party/libsrtp":
     (Var("chromium_git")) + '/chromium/deps/libsrtp.git@84122798bb16927b1e676bd4f938a6e48e5bf2fe',
@@ -242,9 +243,9 @@ deps = {
     Var("nacl_trunk") + "/src/third_party/scons-2.0.1@" +
         Var("nacl_tools_revision"),
 
-#  "src/third_party/webrtc":
-#  'https://android.googlesource.com/platform' +
-#  '/external/webrtc.git@346094cb01ef2ffbf0398f465d61c9a4f77b465c',
+  "src/third_party/webrtc":
+   'https://android.googlesource.com' +
+    '/platform/external/webrtc.git@346094cb01ef2ffbf0398f465d61c9a4f77b465c/webrtc',
 
   "src/third_party/openmax_dl":
     (Var("chromium_git")) + '/external/webrtc/deps/third_party/openmax.git@0349a5549a2ad49d03bef9742a77f62f72ece1ed',
