@@ -242,9 +242,9 @@ deps = {
     Var("nacl_trunk") + "/src/third_party/scons-2.0.1@" +
         Var("nacl_tools_revision"),
 
-  "src/third_party/webrtc":
-  'https://android.googlesource.com/platform' +
-  '/external/webrtc.git@346094cb01ef2ffbf0398f465d61c9a4f77b465c',
+#  "src/third_party/webrtc":
+#  'https://android.googlesource.com/platform' +
+#  '/external/webrtc.git@346094cb01ef2ffbf0398f465d61c9a4f77b465c',
 
   "src/third_party/openmax_dl":
     (Var("chromium_git")) + '/external/webrtc/deps/third_party/openmax.git@0349a5549a2ad49d03bef9742a77f62f72ece1ed',
