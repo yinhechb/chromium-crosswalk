@@ -148,8 +148,8 @@ deps = {
     '/v8/v8.git@bb8234d89692f5088ce3fe3ff5a8e8da2f038cfe',
 
   "src/native_client":
-    Var("nacl_trunk") + "/src/native_client@" + Var("nacl_revision"),
-
+   Var('chromium_git') + '/native_client/src/native_client.git' + '@'+'6609a0938821440bd2169916a8bdbce89fd65e4b',
+ 
   "src/chrome/test/data/extensions/api_test/permissions/nacl_enabled/bin":
     Var("nacl_trunk") + "/src/native_client/tests/prebuilt@" +
     Var("nacl_revision"),
