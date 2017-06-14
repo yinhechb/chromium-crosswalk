@@ -217,11 +217,11 @@ deps = {
 #    'https://android.googlesource.com' +
 #    '/platform/external/webrtc.git@346094cb01ef2ffbf0398f465d61c9a4f77b465c/talk',
  
-# "src/third_party/usrsctp/usrsctplib":
-#    (Var("chromium_git")) + 
-#    '/external/sctp-refimpl.git@7c09dce0d7bb665a1fb21285997c8e735f69ba41/KERN/usrsctp/usrsctplib',
+ "src/third_party/usrsctp/usrsctplib":
+    (Var("chromium_git")) + 
+    '/external/sctp-refimpl.git@/ec8cbf0c740353314c289a5bc87a7538e2af08bf',
 
-  "src/third_party/libsrtp":
+"src/third_party/libsrtp":
     (Var("chromium_git")) + '/chromium/deps/libsrtp.git@84122798bb16927b1e676bd4f938a6e48e5bf2fe',
     
   "src/third_party/speex":
