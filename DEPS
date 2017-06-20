@@ -479,8 +479,9 @@ deps_os = {
       "/trunk/deps/third_party/gold@228995",
 
     "src/third_party/libmtp":
-      "/trunk/deps/third_party/libmtp@206535",
-
+      Var("chromium_git") + 
+      '/chromium/deps/libmtp.git@40240d6f1c1560d1851c217cecada93050e2db0e',
+      
     # Used on Linux only. CrOS already has a copy.
     "src/third_party/mtpd/source":
       Var("chromiumos_git") + "/platform/mtpd.git" +
