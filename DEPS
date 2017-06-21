@@ -225,7 +225,8 @@ deps = {
     (Var("chromium_git")) + '/chromium/deps/libsrtp.git@84122798bb16927b1e676bd4f938a6e48e5bf2fe',
     
   "src/third_party/speex":
-    "/trunk/deps/third_party/speex@198168",
+    (Var("chromium_git")) + 
+    '/chromium/deps/speex.git@f448dfcceac99e0a771feaeedf447523b3fd26e1',
 
   "src/third_party/yasm/source/patched-yasm":
     "/trunk/deps/third_party/yasm/patched-yasm@167605",
